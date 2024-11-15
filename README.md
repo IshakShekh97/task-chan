@@ -2,6 +2,22 @@
 
 TaskChan is a modern web application built with the latest technologies to provide a seamless user experience.
 
+## Create Task -
+
+![Create Task Modal](https://github.com/IshakShekh97/task-chan/blob/31d77607a52e514fa6036ffe2f7ea0b8cdcedac0/public/create%20Task.png)
+
+## Task List -
+
+![List of Tasks](https://github.com/IshakShekh97/task-chan/blob/31d77607a52e514fa6036ffe2f7ea0b8cdcedac0/public/show%20tasks.png)
+
+## Light Mode -
+
+![Dark Mode](https://github.com/IshakShekh97/task-chan/blob/31d77607a52e514fa6036ffe2f7ea0b8cdcedac0/public/light.png)
+
+## Dark Mode -
+
+![Dark Mode](https://github.com/IshakShekh97/task-chan/blob/31d77607a52e514fa6036ffe2f7ea0b8cdcedac0/public/dark.png)
+
 ####
 
 LocalStroge is not Working like data is not saved on a page Reload , i have tried to solve that but haven't found any relevant Results .. Thank You
@@ -54,7 +70,7 @@ import react from "eslint-plugin-react";
 
 export default tseslint.config({
   // Set the react version
-  settings: { react: { version: "18.3" } },
+  settings: { react: { version: "18.3" } },![alt text](image.png)
   plugins: {
     // Add the react plugin
     react,
