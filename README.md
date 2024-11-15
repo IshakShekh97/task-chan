@@ -2,6 +2,10 @@
 
 TaskChan is a modern web application built with the latest technologies to provide a seamless user experience.
 
+#### LocalStroge is not Working like data is not saved on a page Reload , i have tried to solve that but haven't found any relevant Results .. Thank You
+
+
+
 ## Create Task -
 
 ![Create Task Modal](https://github.com/IshakShekh97/task-chan/blob/31d77607a52e514fa6036ffe2f7ea0b8cdcedac0/public/create%20Task.png)
@@ -17,10 +21,6 @@ TaskChan is a modern web application built with the latest technologies to provi
 ## Dark Mode -
 
 ![Dark Mode](https://github.com/IshakShekh97/task-chan/blob/31d77607a52e514fa6036ffe2f7ea0b8cdcedac0/public/dark.png)
-
-####
-
-LocalStroge is not Working like data is not saved on a page Reload , i have tried to solve that but haven't found any relevant Results .. Thank You
 
 ## Technologies Used
 
