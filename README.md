@@ -1,36 +1,55 @@
-# React + TypeScript + Vite
+# TaskChan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskChan is a modern web application built with the latest technologies to provide a seamless user experience.
 
-Currently, two official plugins are available:
+####
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+LocalStroge is not Working like data is not saved on a page Reload , i have tried to solve that but haven't found any relevant Results .. Thank You
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Vite**: A fast build tool and development server.
+- **TypeScript**: A strongly typed programming language that builds on JavaScript.
+- **ShadCN**: A component library for building user interfaces.
+- **Sonner Toasts**: A library for creating beautiful toast notifications.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+To get started with TaskChan, follow these steps:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. **Clone the repository**:
+
+   ```sh
+   git clone https://github.com/IshakShekh97/taskchan.git
+   cd taskchan
+   ```
+
+2. **Install dependencies**:
+
+   ```sh
+   npm install
+   ```
+
+3. **Run the development server**:
+
+   ```sh
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```sh
+   npm run build
+   ```
+
+## Configuration
+
+### ESLint Configuration
+
+To ensure code quality and consistency, TaskChan uses ESLint with the following configuration:
 
 ```js
 // eslint.config.js
+import tseslint from "@typescript-eslint/eslint-plugin";
 import react from "eslint-plugin-react";
 
 export default tseslint.config({
@@ -45,6 +64,13 @@ export default tseslint.config({
     // Enable its recommended rules
     ...react.configs.recommended.rules,
     ...react.configs["jsx-runtime"].rules,
+  },
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
+      tsconfigRootDir: import.meta.dirname,
+    },
   },
 });
 ```
