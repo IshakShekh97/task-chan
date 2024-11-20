@@ -2,7 +2,6 @@
 
 TaskChan is a modern web application built with the latest technologies to provide a seamless user experience.
 
-#### LocalStroge is not Working like data is not saved on a page Reload , i have tried to solve that but haven't found any relevant Results .. Thank You
 
 
 
